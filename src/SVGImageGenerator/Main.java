@@ -11,7 +11,7 @@ import java.util.Random;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        writeDrawing(800, 600, "drawing.svg");
+        writeDrawing(800, 600, "src/SVGImageGenerator/drawing.svg");
     }
 
     private static final Random generator = new Random();
